@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-
+Disallow: /lieferung/
 Sitemap: https://viistaproducts.github.io/agentur-pm-kostencheck/sitemap.xml
