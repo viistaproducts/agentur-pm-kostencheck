@@ -179,6 +179,10 @@
     .deliverable .checks { margin-top: 0; }
 
     .faq { display: grid; gap: .7rem; }
+    .guide-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+    .guide-card { display: block; padding: 1.35rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--card); text-decoration: none; }
+    .guide-card strong { display: block; margin-bottom: .35rem; color: var(--ink); font-size: 1.06rem; }
+    .guide-card span { color: var(--muted); }
     details { border: 1px solid var(--line); border-radius: 1rem; background: var(--card); padding: 1rem 1.1rem; }
     summary { cursor: pointer; font-weight: 800; }
     details p { color: var(--muted); margin-bottom: .2rem; }
@@ -204,7 +208,7 @@
     @media (max-width: 820px) {
       .hero, .deliverable { grid-template-columns: 1fr; }
       .hero { padding-top: 3rem; }
-      .grid { grid-template-columns: 1fr; }
+      .grid, .guide-grid { grid-template-columns: 1fr; }
       .cta { align-items: flex-start; flex-direction: column; }
     }
   </style>
@@ -278,6 +282,19 @@
           <li>Effektivkosten je Nutzer und Monat</li>
           <li>Automatisches Vergleichsdiagramm</li>
         </ul>
+      </div>
+    </section>
+
+    <section class="shell">
+      <div class="section-head">
+        <h2>Kostenvergleich richtig vorbereiten</h2>
+        <p>Vier praktische Leitfäden erklären Rechenlogik, Eingaben und typische Kostenfallen – frei zugänglich und direkt mit der Vorlage verknüpft.</p>
+      </div>
+      <div class="guide-grid">
+        <a class="guide-card" href="pm-software-kosten-vergleichen/"><strong>PM-Software-Kosten vergleichen</strong><span>Zwölfmonatsmethode für Agenturen mit konkreten Angeboten.</span></a>
+        <a class="guide-card" href="agentur-software-kosten/"><strong>Agentursoftware-Kosten verstehen</strong><span>Lizenzen, Einführung und Zusatzposten sauber trennen.</span></a>
+        <a class="guide-card" href="software-angebote-vergleichen-excel/"><strong>Software-Angebote in Excel vergleichen</strong><span>Struktur, Formeln und Kennzahlen nachvollziehbar aufbauen.</span></a>
+        <a class="guide-card" href="projektmanagement-software-kosten-rechner/"><strong>Projektmanagement-Kostenrechner</strong><span>Welche Eingaben nötig sind und was automatisch berechnet wird.</span></a>
       </div>
     </section>
 
