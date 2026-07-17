@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://viistaproducts.github.io/agentur-pm-kostencheck/sitemap.xml
